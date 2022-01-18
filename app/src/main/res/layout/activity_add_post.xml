@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPostActivity"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#2f4a8d"
+        >
+
+
+
+        <ImageView
+            android:id="@+id/back1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/back"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"/>
+
+
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="  NEW POST"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="20dp"
+            android:layout_marginLeft="79dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/profile" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="username"
+            android:textSize="20sp"
+            android:maxLines="3"
+            android:id="@+id/username1"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#173fad"
+            android:text="Post"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="120dp"
+            android:background="@drawable/designbutton"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="  Add A Title..."
+            android:background="@drawable/custom_input"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"/>
+
+        <EditText
+            android:id="@+id/text"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="What's On Your Mind?"
+            android:background="@drawable/custom_input"
+            android:layout_marginTop="5dp" />
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/link"
+                android:layout_marginRight="80dp"
+                android:layout_marginLeft="80dp"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/text"
+                android:layout_marginLeft="-15dp"
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/image"
+                android:layout_marginLeft="65dp"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="20dp"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:text="Link"
+                android:textColor="@color/black"
+                android:layout_marginLeft="85dp"/>
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="20dp"
+                android:text="Text"
+                android:layout_marginLeft="75dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:text="Image"
+                android:textColor="@color/black"
+                android:layout_marginLeft="29dp"/>
+        </LinearLayout>
+
+</LinearLayout>

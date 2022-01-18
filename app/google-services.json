@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "236469101010",
+    "firebase_url": "https://tilted-test-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "tilted-test",
+    "storage_bucket": "tilted-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236469101010:android:cb95ebb5a0f4783766e80b",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236469101010-dmucv5naarv93cgev9uf7qmpvc7evint.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPiR0xkMV1V-2-QLhLzF-mSbbNtME4hUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236469101010-dmucv5naarv93cgev9uf7qmpvc7evint.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236469101010:android:a8cd311135347c3266e80b",
+        "android_client_info": {
+          "package_name": "com.example.session2y3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236469101010-dmucv5naarv93cgev9uf7qmpvc7evint.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPiR0xkMV1V-2-QLhLzF-mSbbNtME4hUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236469101010-dmucv5naarv93cgev9uf7qmpvc7evint.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPostActivity"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#2f4a8d"
+        >
+
+
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/backbutton"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"/>
+
+
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="UPLOAD"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="20dp"
+            android:layout_marginLeft="79dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/ic_person"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/camera"
+            android:layout_gravity="center"
+            android:layout_marginLeft="130dp"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/image"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:text="Camera"
+            android:textColor="@color/black"
+            android:layout_marginLeft="124dp"/>
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:text="Image"
+            android:textColor="@color/black"
+            android:layout_marginLeft="66dp"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="137dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#173fad"
+        android:text="Use"
+        android:textColor="@android:color/white"
+        />
+</LinearLayout>
